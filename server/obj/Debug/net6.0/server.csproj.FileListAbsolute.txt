@@ -1,0 +1,91 @@
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\appsettings.Development.json
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\appsettings.json
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\server.exe
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\server.deps.json
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\server.runtimeconfig.json
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\server.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\server.pdb
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.csproj.AssemblyReference.cache
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.GeneratedMSBuildEditorConfig.editorconfig
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.AssemblyInfoInputs.cache
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.AssemblyInfo.cs
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.csproj.CoreCompileInputs.cache
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.MvcApplicationPartsAssemblyInfo.cs
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.MvcApplicationPartsAssemblyInfo.cache
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\staticwebassets.build.json
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\staticwebassets.development.json
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\scopedcss\bundle\server.styles.css
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.csproj.CopyComplete
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\refint\server.dll
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.pdb
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\server.genruntimeconfig.cache
+D:\'שנה-ב\angular\פרויקט סיכום\my-project\server\obj\Debug\net6.0\ref\server.dll
+E:\server\bin\Debug\net6.0\appsettings.Development.json
+E:\server\bin\Debug\net6.0\appsettings.json
+E:\server\bin\Debug\net6.0\server.exe
+E:\server\bin\Debug\net6.0\server.deps.json
+E:\server\bin\Debug\net6.0\server.runtimeconfig.json
+E:\server\bin\Debug\net6.0\server.dll
+E:\server\bin\Debug\net6.0\server.pdb
+E:\server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\server\obj\Debug\net6.0\server.csproj.AssemblyReference.cache
+E:\server\obj\Debug\net6.0\server.GeneratedMSBuildEditorConfig.editorconfig
+E:\server\obj\Debug\net6.0\server.AssemblyInfoInputs.cache
+E:\server\obj\Debug\net6.0\server.AssemblyInfo.cs
+E:\server\obj\Debug\net6.0\server.csproj.CoreCompileInputs.cache
+E:\server\obj\Debug\net6.0\server.MvcApplicationPartsAssemblyInfo.cs
+E:\server\obj\Debug\net6.0\server.MvcApplicationPartsAssemblyInfo.cache
+E:\server\obj\Debug\net6.0\staticwebassets\msbuild.server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\server\obj\Debug\net6.0\staticwebassets\msbuild.build.server.props
+E:\server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.server.props
+E:\server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.server.props
+E:\server\obj\Debug\net6.0\staticwebassets.pack.json
+E:\server\obj\Debug\net6.0\staticwebassets.build.json
+E:\server\obj\Debug\net6.0\staticwebassets.development.json
+E:\server\obj\Debug\net6.0\scopedcss\bundle\server.styles.css
+E:\server\obj\Debug\net6.0\server.csproj.CopyComplete
+E:\server\obj\Debug\net6.0\server.dll
+E:\server\obj\Debug\net6.0\refint\server.dll
+E:\server\obj\Debug\net6.0\server.pdb
+E:\server\obj\Debug\net6.0\server.genruntimeconfig.cache
+E:\server\obj\Debug\net6.0\ref\server.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\appsettings.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\server.exe
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\server.deps.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\server.runtimeconfig.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\server.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\server.pdb
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.csproj.AssemblyReference.cache
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.AssemblyInfoInputs.cache
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.AssemblyInfo.cs
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.csproj.CoreCompileInputs.cache
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets\msbuild.server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets\msbuild.build.server.props
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.server.props
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.server.props
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\scopedcss\bundle\server.styles.css
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.csproj.CopyComplete
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\refint\server.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.pdb
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.genruntimeconfig.cache
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\ref\server.dll

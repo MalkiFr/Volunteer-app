@@ -1,0 +1,37 @@
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { VolunteerListComponent } from './volunteer/volunteer-list/volunteer-list.component';
+import { SchedulingComponent } from './scheduling/scheduling/scheduling.component';
+import { AppComponent } from './app.component';
+import { VolunteerModule } from './volunteer/volunteer.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { SchedulingModule } from './scheduling/scheduling.module';
+
+const routes: Routes = [
+  // { path: "", component: AppComponent, pathMatch: "prefix" },
+  { path: "VolunteerList", component: VolunteerListComponent },
+  { path: "Scheduling", component: SchedulingComponent },
+];
+
+@NgModule({
+  // imports: [RouterModule.forRoot(routes)],
+
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    SchedulingModule,
+    VolunteerModule,
+    RouterModule.forRoot(routes),
+    // AppRoutingModule
+  ],
+  exports: [RouterModule],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppRoutingModule { }
+
+

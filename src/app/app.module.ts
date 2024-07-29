@@ -6,7 +6,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VolunteerService } from './volunteer/volunteer.service';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 // const ROUTES: Routes = [
@@ -25,13 +25,14 @@ import { VolunteerService } from './volunteer/volunteer.service';
     HttpClientModule,
     SchedulingModule,
     VolunteerModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [VolunteerService],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
   
 
 })
 export class AppModule {
-  
+    
  }

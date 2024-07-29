@@ -1,22 +1,43 @@
 <!-- <p>volunteer-list works!</p> -->
-<div class="list">
+<!-- <div class="list">
 <ul>
 <li *ngFor="let vol of volunteerList">
-id: {{vol.id}}  name: {{vol.firstName}} {{vol.lastName}}    phone: {{vol.phone}}  
-<!-- days: {{vol.days}} -->
+id: {{vol.id}} 
+name: {{vol.firstName}} {{vol.lastName}}    phone: {{vol.phone}}  
+days: {{vol.days}}
 <button (click)="editVolunteer(vol)">edit</button>
 </li>
 </ul>
-</div>
-
-<!-- <div class="list">
-<table>
-    <tr *ngFor="let vol of volunteerList">
-      <th>{{vol.id}}</th>
-      <th>{{vol.firstName}}</th>
-      <th>{{vol.lastName}}</th>
-      <th>{{vol.phone}}</th>
-      <th><button (click)="editVolunteer(vol)">edit</button></th>
-    </tr>
-</table>
 </div> -->
+
+
+<!-- <div class="jumbotron ">
+  <button class="btn btn-warning" style ="margin-right: 25vw; margin-left: 25vw;" (click)="backToHompage()">homepage</button>
+  </div> -->
+  
+
+   <div class="jumbotron text-center" >
+   <p>volunteer list</p>
+   </div>
+  <br>
+  <ul class="list-group">
+      <li *ngFor="let volunteer of volunteerList" class="list-group-item" style="margin-right: 25vw; margin-left: 25vw;">
+        <div class="row">
+              <div class="col-1">
+                  {{volunteer.id}}
+              </div>
+
+               <div class="col-1">
+                  {{volunteer.fullName}} {{volunteer.phone}}
+               </div>
+
+                <div>
+                  <button class="btn btn-info" (click)="editVolunteer(volunteer.id)">Edit volunteer</button><br><br>
+               </div>
+         </div>
+      </li>
+ </ul>
+
+
+
+ 

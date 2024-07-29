@@ -13,7 +13,7 @@
     width: 180px;
     font-size: 14px;
     // font-weight: 600;
-    color: #fff;
+    color: #1ca24d;
     transition: 0.25s;
 }
 
@@ -31,9 +31,13 @@
     width: 180px;
     font-size: 14px;
     // font-weight: 600;
-    color: #fff;
+    color: #1ca24d;
     transition: 0.25s;
 
+}
+
+.home:hover{
+    color: rgb(253, 192, 69);
 }
 
 .nav-item:hover{
@@ -46,20 +50,20 @@
     column-gap: 34px;
 }
 
-a:link {
+button:link {
     color: rgb(8, 8, 8);
   }
 
   
-a:visited {
+button:visited {
     color: rgb(5, 5, 5);
 }
 
-a:hover {
-    color: rgb(102, 98, 88);
+button:hover {
+    color: rgb(246, 244, 239);
 }
 
-  a:active {
-    color: rgb(250, 250, 251);
-}
+//   a:active {
+//     color: rgb(250, 250, 251);
+// }
 

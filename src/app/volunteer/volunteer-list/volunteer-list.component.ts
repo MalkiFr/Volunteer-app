@@ -19,20 +19,23 @@ export class VolunteerListComponent {
     
    }
 
-  selectVolunteer?: Volunteer | undefined;
+  vol?: Volunteer | undefined;
 
   ngOnInit(): void {
     this._service.getAllVolunteers().subscribe(vol => this.volunteerList =
-      vol)
+      vol,err=>{console.log(err)});
   };
 
   
-  editVolunteer = (volunteerToEdit: Volunteer) => {
-    this.selectVolunteer = volunteerToEdit;
-    console.log("edit volunteer");
+  editVolunteer = (id:number) => {
+    // this._service.vol = volunteerToEdit;
+    // console.log("edit volunteer");
+    this.route.navigate(["/volunteerDetails",id]);
   }
 
-
+  // backToHompage = () => {
+  //   this.route.navigateByUrl("");
+  // }
 
 
 }

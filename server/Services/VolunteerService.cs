@@ -9,14 +9,14 @@ public class VolunteerService
     {
         volunteerList = new List<Volunteer>()
         {
-            new Volunteer() { id= 501, firstName= "Avi", lastName= "Buzaglo", phone= "052-7652104", days= new bool[6]{true,false,true,true,false,false} },
-            new Volunteer() { id= 502, firstName= "Yomtov", lastName= "Gold", phone= "053-2548432", days= new bool[6]{false,false,true,true,false,false}},
-            new Volunteer() { id= 503, firstName= "Gidon", lastName= "Ben-porat", phone= "050-9077070", days= new bool[6]{true,true,true,true,false,false} },
-            new Volunteer() { id= 504, firstName= "Laiby", lastName= "Weiss", phone= "053-3100152", days= new bool[6]{true,false,false,true,false,false} },
-            new Volunteer() { id= 505, firstName= "Dani", lastName= "Yarden", phone= "054-8534141", days= new bool[6]{true,false,true,true,false,false} },
-            new Volunteer() { id= 506, firstName= "Yosale", lastName= "Goldman", phone= "058-3266626", days= new bool[6]{true,false,true,true,false,false} },
-            new Volunteer() { id= 507, firstName= "Rafael", lastName= "Shif", phone= "054-5381121", days= new bool[6]{true,false,true,true,false,false} },
-            new Volunteer() { id= 508, firstName= "Yoni", lastName= "Arbel", phone= "052-6017899", days= new bool[6]{true,false,true,true,false,false} },
+            new Volunteer() { id= 501, fullName= "Avi Buzaglo", phone= "052-7652104", days= new bool[6]{true,false,true,true,false,false} },
+            new Volunteer() { id= 502, fullName= "Yomtov Gold", phone= "053-2548432", days= new bool[6]{false,false,true,true,false,false}},
+            new Volunteer() { id= 503, fullName= "Gidon Ben-porat", phone= "050-9077070", days= new bool[6]{true,true,true,true,false,false} },
+            new Volunteer() { id= 504, fullName= "Laiby Weiss", phone= "053-3100152", days= new bool[6]{true,false,false,true,false,false} },
+            new Volunteer() { id= 505, fullName= "Dani Yarden", phone= "054-8534141", days= new bool[6]{true,false,true,true,false,false} },
+            new Volunteer() { id= 506, fullName= "Yosale Goldman", phone= "058-3266626", days= new bool[6]{true,false,true,true,false,false} },
+            new Volunteer() { id= 507, fullName= "Rafael Shif", phone= "054-5381121", days= new bool[6]{true,false,true,true,false,false} },
+            new Volunteer() { id= 508, fullName= "Yoni Arbel", phone= "052-6017899", days= new bool[6]{true,false,true,true,false,false} },
         };
     }
 

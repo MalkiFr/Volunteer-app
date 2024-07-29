@@ -1,8 +1,7 @@
 export class Volunteer {
     id: number = 0;
-    firstName?: string = "";
-    lastName?: string = "";
+    fullName: string = "";
     phone?: string = "";
-    days: boolean[] = [];
+    days: string[] = [];
 
 }

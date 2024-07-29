@@ -1,2 +1,16 @@
+<div>
+  <form [formGroup]="volunteerForm" (ngSubmit)="onSave()">
+    <div>
+      <label for="name" class="form-label">Full name:</label>
+      <input id="name" formControlName="name" />
+    </div>
 
-<p>volunteer-details works!</p>
+    <div formGroupName="availableDays">
+      <div *ngFor="let day of daysArray">
+        <input type="checkbox" [formControlName]="day" [id]="day" />
+        <label [for]="day">{{ day }}</label>
+      </div>
+    </div>
+    <button type="submit">save</button>
+  </form>
+</div>

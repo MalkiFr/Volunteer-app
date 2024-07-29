@@ -1,18 +1,19 @@
 
     
-<nav>
-    <ul class="flex_display">
-        <li class="home">
-            <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                routerLink="/">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLinkActive="active" routerLink="./Scheduling">Scheduling</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLinkActive="active" routerLink="./VolunteerList">VolunteerList</a>
-        </li>
-    </ul>
-</nav>
+<!-- <nav> -->
+    <div class="flex_display">
+        <div>
+            <button class="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+                routerLink="/">Home</button>
+        </div>       
+        <div>
+            <button class="nav-item" routerLinkActive="active" routerLink="./Scheduling">Scheduling</button>
+        </div>
+
+        <div>
+          <button class="nav-item" routerLinkActive="active" routerLink="./VolunteerList">VolunteerList</button>
+        </div>
+    </div>
+<!-- </nav> -->
 <router-outlet></router-outlet>
 

@@ -1,43 +1,67 @@
-<!-- <p>volunteer-list works!</p> -->
-<!-- <div class="list">
-<ul>
-<li *ngFor="let vol of volunteerList">
-id: {{vol.id}} 
-name: {{vol.firstName}} {{vol.lastName}}    phone: {{vol.phone}}  
-days: {{vol.days}}
-<button (click)="editVolunteer(vol)">edit</button>
-</li>
-</ul>
-</div> -->
+<!-- <p>volunteer-list works!</p>
 
-
-<!-- <div class="jumbotron ">
-  <button class="btn btn-warning" style ="margin-right: 25vw; margin-left: 25vw;" (click)="backToHompage()">homepage</button>
-  </div> -->
   
 
    <div class="jumbotron text-center" >
    <p>volunteer list</p>
    </div>
-  <br>
-  <ul class="list-group">
-      <li *ngFor="let volunteer of volunteerList" class="list-group-item" style="margin-right: 25vw; margin-left: 25vw;">
-        <div class="row">
-              <div class="col-1">
-                  {{volunteer.id}}
-              </div>
 
-               <div class="col-1">
-                  {{volunteer.fullName}} {{volunteer.phone}}
-               </div>
-
-                <div>
-                  <button class="btn btn-info" (click)="editVolunteer(volunteer.id)">Edit volunteer</button><br><br>
-               </div>
-         </div>
-      </li>
- </ul>
+   <div class="centered-table">
+    <table mat-table [dataSource]="volunteerList" class="mat-elevation-z8" >
 
 
+      <ng-container class="container" matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.fullName}} </td>
+      </ng-container>
 
- 
+
+      <ng-container class="container" matColumnDef="phone">
+        <th mat-header-cell *matHeaderCellDef> Phone </th>
+        <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+      </ng-container>
+
+
+      <ng-container class="container" matColumnDef="edit">
+        <th mat-header-cell *matHeaderCellDef> Edit </th>
+        <td mat-cell *matCellDef="let element">
+          <button mat-flat-button (click)="editVolunteer(element.id)">Edit</button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div> -->
+
+
+
+  <!-- Jumbotron for the title -->
+<div class="jumbotron text-center">
+  <h1 class="display-4">Volunteer List</h1>
+</div>
+
+<!-- Container for the table -->
+<div class="container">
+  <!-- Table with Bootstrap styling -->
+  <table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Edit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of volunteerList">
+        <td>{{element.fullName}}</td>
+        <td>{{element.phone}}</td>
+        <td>
+          <button class="btn btn-primary" (click)="editVolunteer(element.id)">
+            <i class="fa fa-pencil-alt"></i> Edit
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

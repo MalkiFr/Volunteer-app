@@ -7,12 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VolunteerService } from './volunteer/volunteer.service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
-// const ROUTES: Routes = [
-//   { path:"VolunteerList" , component: VolunteerListComponent },
-//   { path:"Scheduling" , component: SchedulingComponent },
-// ];
 
 @NgModule({
   declarations: [
@@ -26,7 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SchedulingModule,
     VolunteerModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [VolunteerService],
   bootstrap: [AppComponent]

@@ -1,14 +1,27 @@
-// table, th, td {
-//     // border: 1px solid black;
-//     border-collapse: collapse;
+.centered-table {
+    margin: 0 auto; /* ממרכז את הטבלה */
+    width: 80%; /* קובעת את רוחב הטבלה (את יכולה לשנות את הערך לפי הצורך) */
+    max-width: 800px; /* קובעת את הרוחב המקסימלי של הטבלה */
+  }
 
-//   }
+  .container{
+    display: flex;
+    align-items: center;
+  }
 
-// tr {
-//     border-bottom: 1px solid #010101;
-//   }
+  .mat-header-cell, .mat-cell {
+    text-align: center; /* מרכז את התוכן בכל תא */
+    vertical-align: middle; /* מרכז את התוכן אנכית במרכז התא */
+  }
 
-// .list{
-//     display: flex;
-//     justify-content: center;
-// }
+  tr.example-detail-row {
+    height: 0;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+  }

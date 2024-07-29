@@ -83,9 +83,10 @@ C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\m
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\scopedcss\bundle\server.styles.css
-C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.csproj.CopyComplete
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.dll
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\refint\server.dll
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.pdb
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.genruntimeconfig.cache
 C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\ref\server.dll
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.sourcelink.json
+C:\Users\saraf\Documents\תכנות-מלכי\שנה ב\Angular\Angular-progect\my-app\server\obj\Debug\net6.0\server.csproj.Up2Date

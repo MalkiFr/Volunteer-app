@@ -12,7 +12,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./volunteer-list.component.scss']
 })
 export class VolunteerListComponent {
-
+  
+  displayedColumns: string[] = ['name', 'phone', 'edit'];
   volunteerList: Volunteer[] = [];
 
   constructor(private _service: VolunteerService, private route: Router) {
@@ -33,17 +34,13 @@ export class VolunteerListComponent {
     this.route.navigate(["/volunteerDetails",id]);
   }
 
-  // backToHompage = () => {
-  //   this.route.navigateByUrl("");
-  // }
+
 
 
 }
 
 
 
-// getAllVolunteers() {
-//   this._service.getAllVolunteers().subscribe(val => this.volunteerList = val);
-// }
+
 
 

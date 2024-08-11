@@ -21,15 +21,16 @@ export class VolunteerService {
     return this.http.get<Volunteer[]>(this._myAllowSpecificOrigins + 'Volunteer/Get');
   }
 
+  getVolunteerById(id: number): Observable<Volunteer> {
+    return this.http.get<Volunteer>(this._myAllowSpecificOrigins + `Volunteer/Get/${id}`);
+  }
 
   updateVolunteer(): Observable<Boolean> {
     return this.http.put<boolean>(this._myAllowSpecificOrigins + `Volunteer/Put`, this.vol);
   }
 
 
-  getVolunteerById(id: number): Observable<Volunteer> {
-    return this.http.get<Volunteer>(this._myAllowSpecificOrigins + `Volunteer/Get/${id}`);
-  }
+
   
 }
 

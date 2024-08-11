@@ -1,27 +1,29 @@
-.centered-table {
-    margin: 0 auto; /* ממרכז את הטבלה */
-    width: 80%; /* קובעת את רוחב הטבלה (את יכולה לשנות את הערך לפי הצורך) */
-    max-width: 800px; /* קובעת את הרוחב המקסימלי של הטבלה */
-  }
+/* Container to control the table's width */
+.table-container {
+  max-height: 500px; /* Adjust as needed */
+  overflow: auto;
+  width: 80%; /* Adjust this percentage to control the table's width */
+  margin: 0 auto; /* Center the table horizontally */
+}
 
-  .container{
-    display: flex;
-    align-items: center;
-  }
+/* Ensure the table uses the full width of its container */
+mat-table {
+  width: 100%; /* Full width of the container */
+  table-layout: fixed; /* Ensures the table layout is fixed */
+}
 
-  .mat-header-cell, .mat-cell {
-    text-align: center; /* מרכז את התוכן בכל תא */
-    vertical-align: middle; /* מרכז את התוכן אנכית במרכז התא */
-  }
+/* Style table columns to control width */
+mat-header-cell, mat-cell {
+  text-align: left;
+  padding: 8px; /* Adjust padding as needed */
+}
 
-  tr.example-detail-row {
-    height: 0;
-  }
-  
-  tr.example-element-row:not(.example-expanded-row):hover {
-    background: whitesmoke;
-  }
-  
-  tr.example-element-row:not(.example-expanded-row):active {
-    background: #efefef;
-  }
+/* Optionally adjust button spacing */
+button {
+  margin-right: 8px;
+}
+
+/* Add background color on row hover */
+mat-row:hover {
+  background-color: #faf4e6; /* Light gray background for hover effect */
+}

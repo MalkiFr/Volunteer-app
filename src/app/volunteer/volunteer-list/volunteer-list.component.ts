@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 })
 export class VolunteerListComponent {
   
-  displayedColumns: string[] = ['name', 'phone', 'edit'];
+  displayedColumns: string[] = ['name','address', 'phone', 'actions'];
   volunteerList: Volunteer[] = [];
 
   constructor(private _service: VolunteerService, private route: Router) {

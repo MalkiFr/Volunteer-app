@@ -8,10 +8,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { SchedulingModule } from './scheduling/scheduling.module';
 import { VolunteerDetailsComponent } from './volunteer/volunteer-details/volunteer-details.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  // { path: "", component: AppComponent, pathMatch: "prefix" },
-  
+  { path: "", component: HomeComponent},
   { path: "VolunteerList", component: VolunteerListComponent },
   { path: "Scheduling", component: SchedulingComponent },
   {path: 'volunteerDetails/:id',component: VolunteerDetailsComponent}

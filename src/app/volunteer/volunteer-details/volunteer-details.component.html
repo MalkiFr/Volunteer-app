@@ -1,4 +1,5 @@
-<div>
+
+<!-- <div>
   <form [formGroup]="volunteerForm" (ngSubmit)="onSave()">
     <div>
       <label for="name" class="form-label">Full name:</label>
@@ -13,4 +14,139 @@
     </div>
     <button type="submit">save</button>
   </form>
+</div> -->
+
+
+
+
+
+<!-- <div class="volunteer-edit">
+  <h2>Edit Volunteer</h2>
+
+  <form #volunteerForm="ngForm">
+
+    <label for="fullName">Full Name:</label>
+    <input
+      type="text"
+      id="fullName"
+      [(ngModel)]="currentVol.fullName"
+      name="fullName"
+      required
+    />
+
+    <label for="phone">Phone Number:</label>
+    <input
+      type="text"
+      id="phone"
+      [(ngModel)]="currentVol.phone"
+      name="phone"
+    />
+
+    <div class="days-container">
+      <button
+        *ngFor="let day of daysArray"
+        (click)="toggleDay(day)"
+        [ngClass]="{'active': isDaySelected(day)}"
+      >
+        {{ day }}
+      </button>
+    </div>
+
+    <div class="days-container">
+    <button type="submit">Save</button>
+  </div>
+  </form>
+</div> -->
+
+
+
+<!-- 
+<div class="card" *ngIf="currentVol" style="margin-right: 25vw; margin-left: 25vw;">
+  <div class="card-header">
+    {{ currentVol.fullName }}
+  </div>
+
+  <div class="card-body">
+    <form [formGroup]="volunteerForm">
+
+      <div class="form-group">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Name" formControlName="name">
+        <ng-container *ngIf="volunteerForm.controls['name'].errors && volunteerForm.controls['name'].touched">
+          <div class="alert alert-danger" *ngIf="volunteerForm.controls['name'].errors['required']">
+            Required field!
+          </div>
+        </ng-container>
+      </div>
+
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone:</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Phone" formControlName="phone">
+        <ng-container *ngIf="volunteerForm.controls['phone'].errors && volunteerForm.controls['phone'].touched">
+          <div class="alert alert-danger" *ngIf="volunteerForm.controls['phone'].errors['required']">
+            Required field!
+          </div>
+          <div class="alert alert-danger" *ngIf="volunteerForm.controls['phone'].errors['minlength']">
+            This field must be at least 10 chars!
+          </div>
+          <div class="alert alert-danger" *ngIf="volunteerForm.controls['phone'].errors['maxlength']">
+            This field must be at most 15 chars!
+          </div>
+        </ng-container>
+      </div>
+
+      <div class="form-group">
+        Days:<br>
+        <div *ngFor="let day of daysArray">
+          <button 
+            type="button" 
+            class="btn"
+            [ngClass]="getButtonClass(day)"
+            (click)="toggleDay(day)">
+            {{ day }}
+          </button><br>
+        </div>
+      </div>
+
+      <br>
+      <button type="button" class="btn btn-info" (click)="onSave()" style="margin-left: 1vw; margin-right: 1vw;" [disabled]="!volunteerForm.valid">Save</button>
+
+    </form>
+  </div>
+</div> -->
+
+<!-- src/app/volunteer-edit/volunteer-edit.component.html -->
+
+<div class="container">
+  <h2>Edit Volunteer</h2>
+  <form [formGroup]="volunteerForm" (ngSubmit)="onSave()">
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input id="fullName" formControlName="fullName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone:</label>
+      <input id="phone" formControlName="phone" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label>Available Days:</label>
+      <div formArrayName="days">
+        <div *ngFor="let day of daysOfWeek; let i = index">
+          <label>
+            <input type="checkbox" [formControlName]="i" />
+            {{ day }}
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="!volunteerForm.valid">Save</button>
+
+  </form>
 </div>
+
+
+
+

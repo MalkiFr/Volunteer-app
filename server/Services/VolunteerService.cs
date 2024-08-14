@@ -30,7 +30,8 @@ public class VolunteerService
     public static List<Volunteer> Delete(int id)
     {
         var volunteer = Get(id);
-        volunteerList.Remove(volunteer);
+        if(volunteer!=null)
+          volunteerList.Remove(volunteer);
         return volunteerList;
     }
     public static bool UpDate(Volunteer volunteer)

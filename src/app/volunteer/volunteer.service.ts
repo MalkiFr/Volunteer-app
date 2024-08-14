@@ -25,7 +25,8 @@ export class VolunteerService {
     return this.http.get<Volunteer>(this._myAllowSpecificOrigins + `Volunteer/Get/${id}`);
   }
 
-  updateVolunteer(): Observable<Boolean> {
+  updateVolunteer(updatedVolunteer: Volunteer): Observable<Boolean> {
+    this.vol=updatedVolunteer;
     return this.http.put<boolean>(this._myAllowSpecificOrigins + `Volunteer/Put`, this.vol);
   }
 

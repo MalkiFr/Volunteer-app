@@ -29,8 +29,6 @@ export class VolunteerListComponent {
 
   
   editVolunteer = (id:number) => {
-    // this._service.vol = volunteerToEdit;
-    // console.log("edit volunteer");
     this.route.navigate(["/volunteerDetails",id]);
   }
 

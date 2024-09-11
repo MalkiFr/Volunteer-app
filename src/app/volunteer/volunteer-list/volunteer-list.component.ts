@@ -16,14 +16,12 @@ export class VolunteerListComponent {
   displayedColumns: string[] = ['name','address', 'phone', 'actions'];
   volunteerList: Volunteer[] = [];
 
-  constructor(private _service: VolunteerService, private route: Router) {
-    
-   }
+  constructor(private _service: VolunteerService, private route: Router) { }
 
   vol?: Volunteer | undefined;
 
   ngOnInit(): void {
-    this._service.getAllVolunteers().subscribe(vol => this.volunteerList =
+    this._service.volunteers$.subscribe(vol => this.volunteerList =
       vol,err=>{console.log(err)});
   };
 

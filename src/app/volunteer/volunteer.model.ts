@@ -3,5 +3,4 @@ export class Volunteer {
     fullName: string = "";
     phone?: string = "";
     days: boolean[] = [];
-
 }

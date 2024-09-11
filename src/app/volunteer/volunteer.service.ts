@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Volunteer } from './volunteer.model'
 
@@ -11,14 +11,21 @@ import { Volunteer } from './volunteer.model'
 )
 export class VolunteerService {
 
-  _myAllowSpecificOrigins = 'http://localhost:5141/api/';
-
-  constructor(private http: HttpClient) { }
-
+  readonly _myAllowSpecificOrigins = 'http://localhost:5141/api/';
+  private volunteersSubject = new BehaviorSubject<Volunteer[]>([]);
+  volunteers$ = this.volunteersSubject.asObservable();
   vol?: Volunteer | undefined;
 
-  getAllVolunteers(): Observable<Volunteer[]> {
-    return this.http.get<Volunteer[]>(this._myAllowSpecificOrigins + 'Volunteer/Get');
+  constructor(private http: HttpClient) {
+    this.loadAllVolunteers();
+   }
+
+   loadAllVolunteers(): void{
+    this.http.get<Volunteer[]>(this._myAllowSpecificOrigins + 'Volunteer/Get')
+    .subscribe(
+      volunteers => this.volunteersSubject.next(volunteers),
+      err => console.error('Failed to load volunteers', err)
+    );
   }
 
   getVolunteerById(id: number): Observable<Volunteer> {

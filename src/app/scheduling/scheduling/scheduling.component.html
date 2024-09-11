@@ -1,3 +1,22 @@
-
-<p>scheduling works!</p>
-
+<form [formGroup]="scheduleForm">
+    <div class="schedule-container">
+      <div class="grid-container">
+        <div *ngFor="let dayControl of days.controls; let i = index"
+             class="day-tile"
+             [ngClass]="{'assigned': dayControl.value.volunteer, 'empty': !dayControl.value.volunteer}">
+          <div class="day-content">
+            {{ dayControl.value.volunteer?.fullName || dayControl.value.name }}
+          </div>
+          <div class="dropdown" *ngIf="dayControl.value.showDropdown">
+            <div *ngFor="let volunteer in volunteersArray[dayControl.value.name]"
+              
+                 class="dropdown-item">
+              {{ volunteer.fullName }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <button class="save-button" type="button" (click)="onSave()">שמור</button> -->
+    </div>
+  </form>
+  

@@ -1,0 +1,84 @@
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .day-tile {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .day-tile:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .day-tile.assigned {
+    background-color: #d0f0c0; /* צבע רקע עבור יום עם מתנדב */
+  }
+  
+  .day-tile.empty {
+    background-color: #ffffff; /* צבע רקע עבור יום ללא מתנדב */
+  }
+  
+  .day-content {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e0f0f0;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #004d40;
+  }
+  
